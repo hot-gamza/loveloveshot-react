@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./component/header/Header";
 import MainPage from "./pages/MainPage";
 import ModeSelect from "./pages/ModeSelect";
-import NormalImage from "./pages/NormalImage";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/modeSelect" element={<ModeSelect />} />
-          <Route path="/normalImage" element={<NormalImage />} />
         </Routes>
       </BrowserRouter>
     </>

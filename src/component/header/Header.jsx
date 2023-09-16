@@ -2,23 +2,16 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faUser, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const Header = styled.div`
     max-width: 100%;
-    height: 7vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     background-color: black;
-
-    a {
-      color: white;
-      text-decoration: none;
-    }
     #main_logo {
       display: flex;
       justify-content: center;
@@ -50,7 +43,6 @@ const Header = () => {
 
     li {
       padding: 0 1rem;
-      font-size: 1.2rem;
     }
 
     .toggle {
@@ -67,7 +59,6 @@ const Header = () => {
 
     @media screen and (max-width: 768px) {
       flex-wrap: wrap;
-      height: 10vh;
 
       .header_right {
         display: ${(props) => (props.userToggleOpen ? "flex" : "none")};
@@ -115,9 +106,7 @@ const Header = () => {
 
       {/* Logo */}
       <div className="logo">
-        <Link to="/">
-          <img src="loveloveshot_logo.png" id="main_logo" />
-        </Link>
+        <img src="loveloveshot_logo.png" id="main_logo" />
       </div>
 
       {/* User 버튼 */}
@@ -132,19 +121,13 @@ const Header = () => {
 
       {/* 메뉴 리스트 */}
       <ul className="header_menulist">
-        <li>
-          <Link to="/">홈페이지</Link>
-        </li>
-        <li>
-          <Link to="/modeSelect">사진 생성</Link>
-        </li>
+        <li>홈페이지</li>
+        <li>사진 생성</li>
       </ul>
 
       {/* User 메뉴 리스트 */}
       <ul className="header_right">
-        <li>
-          <Link to="/modeSelect">Login</Link>
-        </li>
+        <li>Login</li>
       </ul>
     </Header>
   );
