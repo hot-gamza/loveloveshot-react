@@ -7,6 +7,7 @@ import NormalImageResult from "./pages/NormalImageResult";
 import PremiumImage from "./pages/PremiumImage";
 import NotFound from "./pages/NotFound";
 
+
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/normal" element={<NormalImage />} />
           <Route path="/normalResult" element={<NormalImageResult />} />
           <Route path="/premium" element={<PremiumImage />} />
+          <Route path="/normalImage" element={<NormalImage />} />
         </Routes>
       </BrowserRouter>
     </>
