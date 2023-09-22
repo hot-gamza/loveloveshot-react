@@ -53,6 +53,7 @@ const NormalImage = () => {
       formdata.append("maleSingleImage", maleFile);
       formdata.append("femaleSingleImage", femaleFile);
 
+
       axios
         .post(springURL, formdata)
         .then(function (resp) {
@@ -81,6 +82,7 @@ const NormalImage = () => {
       >
         <div className="imageContainer">
         <div className="imageBoxWrapper">
+
           <div className="maleImageBox">
             <input
               type="file"

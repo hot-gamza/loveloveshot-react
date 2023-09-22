@@ -12,6 +12,7 @@ const ModeSelect = () => {
       alert("준비중인 서비스입니다.");
     }
   };
+
   return (
     <>
       <div class="cards-list">

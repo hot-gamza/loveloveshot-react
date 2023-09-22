@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "../assets/pages/normalImageResult.css";
 
+
 const NormalImageResult = () => {
   const location = useLocation();
   const [resultImage, setResultImage] = useState();
