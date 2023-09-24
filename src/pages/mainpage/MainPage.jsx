@@ -31,11 +31,13 @@ const MainPage = () => {
                 AI가 만들어주는 커플 이미지를 확인해보세요!
               </p>
             </div>
-            <Button
-              className="button-1-instance"
-              divClassName="design-component-instance-node"
-              text="내 사진첩 보기"
-            />
+            <Link to="/album">
+              <Button
+                className="button-1-instance"
+                divClassName="design-component-instance-node"
+                text="내 사진첩 보기"
+              />
+            </Link>
             <DivWrapper className="view" />
           </div>
         </div>

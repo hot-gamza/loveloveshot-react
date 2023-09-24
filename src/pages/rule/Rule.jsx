@@ -1,5 +1,7 @@
 import React from "react";
 import "./rule.css";
+import { Button } from "../../component/button/Button";
+import { TabBar } from "../../component/tapbar/TabBar";
 
 const Rule = () => {
   return (
@@ -91,6 +93,7 @@ const Rule = () => {
           src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/line-27.svg"
         />
         <div className="forward" />
+        {/* <TabBar /> */}
         <div className="tab-bar">
           <div className="group-3">
             <div className="text-wrapper-6">사진첩</div>
@@ -117,9 +120,11 @@ const Rule = () => {
             />
           </div>
         </div>
-        <button className="div-wrapper">
-          <div className="text-wrapper-8">이미지 등록하기</div>
-        </button>
+        <Button
+          className="div-wrapper"
+          divClassName="text-wrapper-8"
+          text="이미지 등록하기"
+        />
       </div>
     </div>
   );

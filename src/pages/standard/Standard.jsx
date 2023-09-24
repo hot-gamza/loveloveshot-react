@@ -64,14 +64,12 @@ const Standard = () => {
     }
   };
   return (
-    <div className="index">
+    <div className="standard-index">
       <div className="div">
         <TabBar className="tab-bar" />
-        <button className="div-wrapper">
-          <input type="submit" className="text-wrapper-3">
-            생성하기
-          </input>
-        </button>
+        <input type="submit" className="div-wrapper">
+          <div className="text-wrapper-3">생성하기</div>
+        </input>
         <div className="view">
           <div className="ellipse" />
           <div className="text-wrapper-4">사진 업로드 약관 동의</div>
