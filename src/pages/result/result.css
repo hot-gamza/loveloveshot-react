@@ -1,0 +1,191 @@
+.result-index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.result-index .div {
+  background-color: #ffffff;
+  height: 867px;
+  position: relative;
+  width: 400px;
+}
+
+.result-index .overlap {
+  height: 312px;
+  left: 0;
+  position: absolute;
+  top: 555px;
+  width: 400px;
+}
+
+.result-index .kakaotalk-photo {
+  height: 304px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 304px;
+}
+
+.result-index .tab-bar {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #00000033;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 242px;
+  width: 400px;
+}
+
+.result-index .group {
+  height: 38px;
+  left: 277px;
+  position: absolute;
+  top: 16px;
+  width: 26px;
+}
+
+.result-index .text-wrapper {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.result-index .vector {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.result-index .button {
+  background-color: #ffffff;
+  border-radius: 29.5px;
+  box-shadow: 0px 4px 30px #ac59ff1a;
+  height: 59px;
+  left: 170px;
+  position: absolute;
+  top: 4px;
+  width: 59px;
+}
+
+.result-index .overlap-group-wrapper {
+  height: 16px;
+  left: 22px;
+  position: relative;
+  top: 21px;
+  width: 16px;
+}
+
+.result-index .overlap-group {
+  height: 16px;
+  position: relative;
+}
+
+.result-index .rectangle {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.result-index .rectangle-2 {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  transform: rotate(90deg);
+  width: 16px;
+}
+
+.result-index .group-2 {
+  height: 38px;
+  left: 101px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.result-index .text-wrapper-2 {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.result-index .img {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.result-index .group-3 {
+  height: 20px;
+  left: 48px;
+  position: absolute;
+  top: 22px;
+  width: 331px;
+}
+
+.result-index .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lora", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.result-index .text-wrapper-4 {
+  color: #5d00ba;
+  font-family: "Lora", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 263px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.result-index .kakaotalk-photo-2 {
+  height: 456px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 79px;
+  width: 304px;
+}
+
+.result-index .forward {
+  background-image: url(https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651030e59efc059aed0ee99d/img/forward@2x.png);
+  background-size: 100% 100%;
+  height: 33px;
+  left: 8px;
+  position: absolute;
+  top: 16px;
+  width: 33px;
+}

@@ -1,0 +1,314 @@
+.album-index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.album-index .div {
+  background-color: #ffffff;
+  height: 652px;
+  position: relative;
+  width: 400px;
+}
+
+.album-index .tab-bar {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #00000033;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 582px;
+  width: 400px;
+}
+
+.album-index .group {
+  height: 38px;
+  left: 277px;
+  position: absolute;
+  top: 16px;
+  width: 26px;
+}
+
+.album-index .text-wrapper {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.album-index .vector {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.album-index .button {
+  background-color: #ffffff;
+  border-radius: 29.5px;
+  box-shadow: 0px 4px 30px #ac59ff1a;
+  height: 59px;
+  left: 170px;
+  position: absolute;
+  top: 4px;
+  width: 59px;
+}
+
+.album-index .overlap-group-wrapper {
+  height: 16px;
+  left: 22px;
+  position: relative;
+  top: 21px;
+  width: 16px;
+}
+
+.album-index .overlap-group {
+  height: 16px;
+  position: relative;
+}
+
+.album-index .rectangle {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.album-index .rectangle-2 {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  transform: rotate(90deg);
+  width: 16px;
+}
+
+.album-index .group-2 {
+  height: 38px;
+  left: 101px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.album-index .text-wrapper-2 {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.album-index .img {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.album-index .option-text {
+  height: 53px;
+  left: 109px;
+  position: absolute;
+  top: 25px;
+  width: 186px;
+}
+
+.album-index .text-wrapper-3 {
+  color: #000000;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 46px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.album-index .p {
+  color: #565656;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 33px;
+  width: 182px;
+}
+
+.album-index .overlap {
+  border-radius: 8px;
+  height: 240px;
+  left: 80px;
+  position: absolute;
+  top: 118px;
+  width: 240px;
+}
+
+.album-index .element {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: var(--imgae);
+  height: 240px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.album-index .overlap-2 {
+  background-color: #ac59ff;
+  border-radius: 8px;
+  height: 240px;
+  position: relative;
+}
+
+.album-index .image {
+  color: #ffffff;
+  font-family: "Lora", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+}
+
+.album-index .div-wrapper {
+  height: 32px;
+  left: 40px;
+  position: absolute;
+  top: 192px;
+  width: 162px;
+}
+
+.album-index .overlap-group-2 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 32px;
+  position: relative;
+  width: 160px;
+}
+
+.album-index .text-wrapper-4 {
+  color: #5d00ba;
+  font-family: "Lora", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+}
+
+.album-index .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 78px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+}
+
+.album-index .loading {
+  height: 46px;
+  left: 97px;
+  position: absolute;
+  top: 97px;
+  width: 46px;
+}
+
+.album-index .overlap-3 {
+  height: 46px;
+  position: relative;
+  width: 42px;
+}
+
+.album-index .ellipse {
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.album-index .rectangle-3 {
+  background-color: #ffffff;
+  height: 1px;
+  left: 35px;
+  position: absolute;
+  top: 36px;
+  transform: rotate(44.36deg);
+  width: 6px;
+}
+
+.album-index .rectangle-4 {
+  background-color: #ffffff;
+  height: 1px;
+  left: 37px;
+  position: absolute;
+  top: 34px;
+  transform: rotate(44.36deg);
+  width: 6px;
+}
+
+.album-index .logout {
+  height: 24px;
+  left: 320px;
+  position: absolute;
+  top: 16px;
+  width: 66px;
+}
+
+.album-index .overlap-4 {
+  background-color: #ebebeb;
+  border-radius: 8px;
+  height: 24px;
+  position: relative;
+  width: 64px;
+}
+
+.album-index .text-wrapper-6 {
+  color: #636262;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 600;
+  left: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+}
+
+.album-index .padlock {
+  height: 15px;
+  left: 10px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}

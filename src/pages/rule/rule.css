@@ -1,0 +1,363 @@
+.rule-index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rule-index .div {
+  background-color: #ffffff;
+  height: 812px;
+  position: relative;
+  width: 400px;
+}
+
+.rule-index .text-wrapper {
+  color: #000000;
+  font-family: "Lora", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  left: 116px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 55px;
+}
+
+.rule-index .group {
+  height: 258px;
+  left: 71px;
+  position: absolute;
+  top: 343px;
+  width: 258px;
+}
+
+.rule-index .rectangle {
+  height: 123px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 135px;
+  width: 123px;
+}
+
+.rule-index .img {
+  height: 123px;
+  left: 135px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 123px;
+}
+
+.rule-index .rectangle-2 {
+  height: 123px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 123px;
+}
+
+.rule-index .rectangle-3 {
+  height: 123px;
+  left: 135px;
+  position: absolute;
+  top: 135px;
+  width: 123px;
+}
+
+.rule-index .bad {
+  height: 19px;
+  left: 175px;
+  position: absolute;
+  top: 308px;
+  width: 53px;
+}
+
+.rule-index .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.rule-index .loudly-crying-emoji {
+  height: 16px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+
+.rule-index .good {
+  height: 19px;
+  left: 166px;
+  position: absolute;
+  top: 109px;
+  width: 69px;
+}
+
+.rule-index .smiling-with-closed {
+  height: 16px;
+  left: 51px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+
+.rule-index .group-2 {
+  height: 150px;
+  left: 21px;
+  position: absolute;
+  top: 140px;
+  width: 364px;
+}
+
+.rule-index .text-wrapper-3 {
+  color: #000000;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 122px;
+}
+
+.rule-index .text-wrapper-4 {
+  color: #000000;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 152px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 122px;
+}
+
+.rule-index .text-wrapper-5 {
+  color: #000000;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 274px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 122px;
+}
+
+.rule-index .ellipse {
+  height: 114px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 114px;
+}
+
+.rule-index .ellipse-2 {
+  height: 114px;
+  left: 122px;
+  position: absolute;
+  top: 0;
+  width: 114px;
+}
+
+.rule-index .ellipse-3 {
+  height: 114px;
+  left: 244px;
+  position: absolute;
+  top: 0;
+  width: 114px;
+}
+
+.rule-index .p {
+  color: #000000;
+  font-family: "Lora", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 91px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 608px;
+}
+
+.rule-index .line {
+  height: 1px;
+  left: 112px;
+  object-fit: cover;
+  position: absolute;
+  top: 316px;
+  width: 56px;
+}
+
+.rule-index .line-2 {
+  height: 1px;
+  left: 234px;
+  object-fit: cover;
+  position: absolute;
+  top: 316px;
+  width: 56px;
+}
+
+.rule-index .forward {
+  background-image: url(https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/forward-1@2x.png);
+  background-size: 100% 100%;
+  height: 33px;
+  left: 8px;
+  position: absolute;
+  top: 16px;
+  width: 33px;
+}
+
+.rule-index .tab-bar {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #00000033;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 742px;
+  width: 400px;
+}
+
+.rule-index .group-3 {
+  height: 38px;
+  left: 277px;
+  position: absolute;
+  top: 16px;
+  width: 26px;
+}
+
+.rule-index .text-wrapper-6 {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.rule-index .vector {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.rule-index .button {
+  background-color: #ffffff;
+  border-radius: 29.5px;
+  box-shadow: 0px 4px 30px #ac59ff1a;
+  height: 59px;
+  left: 170px;
+  position: absolute;
+  top: 4px;
+  width: 59px;
+}
+
+.rule-index .overlap-group-wrapper {
+  height: 16px;
+  left: 22px;
+  position: relative;
+  top: 21px;
+  width: 16px;
+}
+
+.rule-index .overlap-group {
+  height: 16px;
+  position: relative;
+}
+
+.rule-index .rectangle-4 {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 16px;
+}
+
+.rule-index .rectangle-5 {
+  background-color: #5d00ba;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  transform: rotate(90deg);
+  width: 16px;
+}
+
+.rule-index .group-4 {
+  height: 38px;
+  left: 101px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.rule-index .text-wrapper-7 {
+  color: #b7b7b7;
+  font-family: "Lora", Helvetica;
+  font-size: 8px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 28px;
+}
+
+.rule-index .vector-2 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.rule-index .div-wrapper {
+  all: unset;
+  background-color: #ac59ff;
+  border-radius: 30px;
+  box-sizing: border-box;
+  height: 47px;
+  left: 60px;
+  position: absolute;
+  top: 672px;
+  width: 280px;
+}
+
+.rule-index .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Lora", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+}
