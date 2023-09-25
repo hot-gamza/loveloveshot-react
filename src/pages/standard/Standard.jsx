@@ -66,7 +66,7 @@ const Standard = () => {
   return (
     <div className="standard-index">
       <div className="div">
-        <TabBar className="tab-bar" />
+        <TabBar className="tab-bar-instance" />
         <input type="submit" className="div-wrapper" />
         <div className="text-wrapper-3">생성하기</div>
         <div className="view">
