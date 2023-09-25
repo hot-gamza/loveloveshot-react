@@ -3,6 +3,7 @@ import "./rule.css";
 import { Link, useParams } from "react-router-dom";
 import { Button } from "../../component/button/Button";
 import { TabBar } from "../../component/tapbar/TabBar";
+import { Forward } from "../../component/forward/Forward";
 
 const Rule = () => {
   const { modeNo } = useParams();
@@ -10,6 +11,7 @@ const Rule = () => {
     <div>
       <div className="rule-index">
         <div className="div">
+          <Forward />
           <div className="text-wrapper">사진 업로드 규정</div>
           <div className="group">
             <img
@@ -95,34 +97,6 @@ const Rule = () => {
             alt="Line"
             src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/line-27.svg"
           />
-          <div className="forward" />
-
-          {/* <div className="tab-bar">
-          <div className="group-3">
-            <div className="text-wrapper-6">사진첩</div>
-            <img
-              className="vector"
-              alt="Vector"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/vector.svg"
-            />
-          </div>
-          <div className="button">
-            <div className="overlap-group-wrapper">
-              <div className="overlap-group">
-                <div className="rectangle-4" />
-                <div className="rectangle-5" />
-              </div>
-            </div>
-          </div>
-          <div className="group-4">
-            <div className="text-wrapper-7">홈</div>
-            <img
-              className="vector-2"
-              alt="Vector"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/vector-1.svg"
-            />
-          </div>
-        </div> */}
           {modeNo == 1 ? (
             <Link to="/standard">
               <Button

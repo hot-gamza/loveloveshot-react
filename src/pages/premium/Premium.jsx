@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./premium.css";
 import { TabBar } from "../../component/tapbar/TabBar";
 import Terms from "../../component/terms/Terms";
+import { Forward } from "../../component/forward/Forward";
 
 const Premium = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,6 +24,7 @@ const Premium = () => {
   return (
     <div className="index">
       <div className="div">
+        <Forward />
         <TabBar />
         <button className="div-wrapper">
           <div className="text-wrapper-3">생성하기</div>
