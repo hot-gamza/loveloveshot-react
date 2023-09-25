@@ -13,8 +13,7 @@ const ModeSelect = () => {
         <TabBar className="tab-bar-instance" />
         <div className="botton-text">
           <p className="p">
-            *업로드한 사진은, 이미지 생성 후&nbsp;&nbsp;서버에서 즉시
-            삭제됩니다.
+            *업로드한 사진은, 이미지 생성 후&nbsp;서버에서 즉시 삭제됩니다.
           </p>
         </div>
         <div className="premium-button">
@@ -25,10 +24,9 @@ const ModeSelect = () => {
               </div>
             </div>
             <div className="text">
-              {/* <p>컨셉별 커플 이미지 10장</p> */}
-              {/* <div className="text-wrapper-5">컨셉별 커플 이미지 10장</div>
-              <div className="text-wrapper-6">워터마크 제거</div>
-              <div className="text-wrapper-7">나만의 사진첩 제공</div> */}
+              <div className="text-wrapper-5">컨셉별 커플 이미지 10장</div>
+              <div className="text-wrapper-6">나만의 사진첩 제공</div>
+              <div className="text-wrapper-7">워터마크 제거</div>
               <div className="crown">
                 <FontAwesomeIcon
                   icon={faCrown}

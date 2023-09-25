@@ -18,12 +18,13 @@
   color: #b7b7b7;
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 8px;
-  font-weight: 400;
-  left: 2px;
+  font-weight: 450;
+  left: -4px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 28px;
+  width: 30px;
 }
 
 .tab-bar .vector {
@@ -47,9 +48,9 @@
 
 .tab-bar .overlap-group-wrapper {
   height: 16px;
-  left: 22px;
+  left: 23px;
   position: relative;
-  top: 21px;
+  top: 17px;
   width: 16px;
 }
 
@@ -90,7 +91,7 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 8px;
+  left: 6px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;

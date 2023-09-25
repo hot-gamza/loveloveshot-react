@@ -23,7 +23,7 @@
 
 .modeSelect-index .botton-text {
   height: 14px;
-  left: 57px;
+  left: 35px;
   position: absolute;
   top: 536px;
   width: 287px;
@@ -84,7 +84,7 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 10.8px;
   font-weight: 600;
-  left: 23px;
+  left: 18px; /*23px;*/
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -104,11 +104,12 @@
   font-family: "Inter", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 9px;
+  left: 7px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: -8px;
+  width: 110px;
 }
 
 .modeSelect-index .text-wrapper-6 {
@@ -116,11 +117,11 @@
   font-family: "Inter", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 10px;
+  left: 7px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 20px;
+  top: 8px;
 }
 
 .modeSelect-index .text-wrapper-7 {
@@ -128,29 +129,29 @@
   font-family: "Inter", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 9px;
+  left: 7px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 10px;
+  top: 24px;
 }
 
 .modeSelect-index .crown {
-  left: -3px;
+  left: -8px;
   position: absolute;
-  top: -4px;
+  top: -13px;
 }
 
 .modeSelect-index .crown-2 {
-  left: -3px;
+  left: -8px;
   position: absolute;
-  top: 9px;
+  top: 3px;
 }
 
 .modeSelect-index .crown-3 {
-  left: -3px;
+  left: -8px;
   position: absolute;
-  top: 22px;
+  top: 19px;
 }
 
 .modeSelect-index .text-wrapper-8 {
@@ -189,7 +190,7 @@
   font-family: "Pretendard-Bold", Helvetica;
   font-size: 8.1px;
   font-weight: 700;
-  left: 14px;
+  left: 12px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -235,12 +236,12 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 10.8px;
   font-weight: 600;
-  left: 21px;
+  left: 18px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 4px;
-  width: 39px;
+  /*width: 39px;*/
 }
 
 .modeSelect-index .element {
@@ -248,13 +249,13 @@
   font-family: "Inter", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 126px;
+  left: 120px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 30px;
-  width: 99px;
+  top: 19px;
+  width: 117px;
 }
 
 .modeSelect-index .text-wrapper-11 {
@@ -272,7 +273,7 @@
 
 .modeSelect-index .option-text {
   height: 52px;
-  left: 101px;
+  left: 82px; /*101px;*/ 
   position: absolute;
   top: 130px;
   width: 221px;
