@@ -250,12 +250,13 @@
   color: #b7b7b7;
   font-family: "Lora", Helvetica;
   font-size: 8px;
-  font-weight: 400;
-  left: 1px;
+  font-weight: 450;
+  left: -4px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 28px;
+  width: 30px;
 }
 
 .rule-index .vector {
@@ -322,7 +323,7 @@
   font-family: "Lora", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 8px;
+  left: 6px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
