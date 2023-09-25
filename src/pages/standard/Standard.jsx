@@ -67,9 +67,8 @@ const Standard = () => {
     <div className="standard-index">
       <div className="div">
         <TabBar className="tab-bar" />
-        <input type="submit" className="div-wrapper">
-          <div className="text-wrapper-3">생성하기</div>
-        </input>
+        <input type="submit" className="div-wrapper" />
+        <div className="text-wrapper-3">생성하기</div>
         <div className="view">
           <div className="ellipse" />
           <div className="text-wrapper-4">사진 업로드 약관 동의</div>
