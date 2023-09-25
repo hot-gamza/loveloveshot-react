@@ -11,36 +11,63 @@ const Rule = () => {
     <div>
       <div className="rule-index">
         <div className="div">
-          <Forward />
           <div className="text-wrapper">사진 업로드 규정</div>
           <div className="group">
-            <img
-              className="rectangle"
-              alt="Rectangle"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/rectangle-54@2x.png"
-            />
-            <img
-              className="img"
-              alt="Rectangle"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/rectangle-55@2x.png"
-            />
-            <img
-              className="rectangle-2"
-              alt="Rectangle"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/rectangle-56@2x.png"
-            />
-            <img
-              className="rectangle-3"
-              alt="Rectangle"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/rectangle-57@2x.png"
-            />
+            <div className="overlap">
+              <div className="overlap-group-wrapper">
+                <div className="overlap-group">
+                  <div className="ellipse" />
+                  <img
+                    className="cancel"
+                    alt="Cancel"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/cancel@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="group-wrapper">
+              <div className="overlap-group-wrapper">
+                <div className="overlap-group">
+                  <div className="ellipse" />
+                  <img
+                    className="cancel"
+                    alt="Cancel"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/cancel@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="div-wrapper">
+              <div className="overlap-group-wrapper">
+                <div className="overlap-group">
+                  <div className="ellipse" />
+                  <img
+                    className="cancel"
+                    alt="Cancel"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/cancel@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="overlap-2">
+              <div className="overlap-group-wrapper">
+                <div className="overlap-group">
+                  <div className="ellipse" />
+                  <img
+                    className="cancel"
+                    alt="Cancel"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/cancel@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="bad">
             <div className="text-wrapper-2">BAD</div>
             <img
               className="loudly-crying-emoji"
               alt="Loudly crying emoji"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/loudly-crying-emoji--free-download-iphone-emojis-.png"
+              src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/loudly-crying-emoji--free-download-iphone-emojis-.png"
             />
           </div>
           <div className="good">
@@ -48,7 +75,7 @@ const Rule = () => {
             <img
               className="smiling-with-closed"
               alt="Smiling with closed"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/smiling-with-closed-eyes-emoji--free-download-ios-emojis-.png"
+              src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/smiling-with-closed-eyes-emoji--free-download-ios-emojis-.png"
             />
           </div>
           <div className="group-2">
@@ -65,21 +92,42 @@ const Rule = () => {
               옅은 미소를
               <br />띈 사진
             </div>
-            <img
-              className="ellipse"
-              alt="Ellipse"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-17@2x.png"
-            />
-            <img
-              className="ellipse-2"
-              alt="Ellipse"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-18@2x.png"
-            />
-            <img
-              className="ellipse-3"
-              alt="Ellipse"
-              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-19@2x.png"
-            />
+            <div className="overlap-3">
+              <div className="group-3">
+                <div className="overlap-group-2">
+                  <div className="ellipse-2" />
+                  <img
+                    className="vector"
+                    alt="Vector"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="overlap-4">
+              <div className="group-3">
+                <div className="overlap-group-2">
+                  <div className="ellipse-2" />
+                  <img
+                    className="vector"
+                    alt="Vector"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="overlap-5">
+              <div className="group-3">
+                <div className="overlap-group-2">
+                  <div className="ellipse-2" />
+                  <img
+                    className="vector"
+                    alt="Vector"
+                    src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/65117e2153064f584d31901c/img/vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <p className="p">
             얼굴이 너무 작게 나온 사진
@@ -90,17 +138,19 @@ const Rule = () => {
           <img
             className="line"
             alt="Line"
-            src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/line-27.svg"
+            src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/line-27.svg"
           />
           <img
-            className="line-2"
+            className="img"
             alt="Line"
-            src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/line-27.svg"
+            src="https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/line-27.svg"
           />
+          <Forward />
+
           {modeNo == 1 ? (
             <Link to="/standard">
               <Button
-                className="div-wrapper"
+                className="button-2"
                 divClassName="text-wrapper-8"
                 text="이미지 등록하기"
               />
@@ -108,7 +158,7 @@ const Rule = () => {
           ) : (
             <Link to="/premium">
               <Button
-                className="div-wrapper"
+                className="button-2"
                 divClassName="text-wrapper-8"
                 text="이미지 등록하기"
               />
