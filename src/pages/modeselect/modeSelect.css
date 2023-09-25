@@ -4,7 +4,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 650px;
 }
 
 .modeSelect-index .div-2 {
@@ -23,9 +24,9 @@
 
 .modeSelect-index .botton-text {
   height: 14px;
-  left: 35px;
-  position: absolute;
-  top: 536px;
+  left: 53px;
+  position: relative;
+  top: 520px;
   width: 287px;
 }
 
@@ -33,16 +34,12 @@
   color: #565656;
   font-size: 12px;
   font-weight: 400;
-  left: 0;
+  /* left: 30px; */
   letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
+  /* line-height: normal; */
+  /* position: absolute; */
+  /* top: 30px; */
   white-space: nowrap;
-  /* font-family: "Pretendard Variable", Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; */
 }
 
 .modeSelect-index .premium-button {
@@ -273,10 +270,10 @@
 
 .modeSelect-index .option-text {
   height: 52px;
-  left: 82px; /*101px;*/ 
+  left: 84px; /*101px;*/
   position: absolute;
   top: 130px;
-  width: 221px;
+  width: 218px;
 }
 
 .modeSelect-index .text-wrapper-12 {
@@ -284,7 +281,7 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 24px;
   font-weight: 400;
-  left: 43px;
+  left: 50px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -296,7 +293,7 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  left: 3px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -306,7 +303,7 @@
 }
 
 .modeSelect-index .logo-instance {
-  left: 86px !important;
+  left: 82px !important;
   position: absolute !important;
   top: 84px !important;
 }

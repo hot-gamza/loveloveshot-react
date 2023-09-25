@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
-import "../assets/pages/normalImage.css";
+// import "../assets/pages/normalImage.css";
 
 const Normal = () => {
   const [disabled, setDisabled] = useState(false);

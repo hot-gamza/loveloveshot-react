@@ -26,7 +26,7 @@ function App() {
           <Route path="/premium" element={<Premium />} />
           <Route path="/oauth2/redirect" element={<OAuth2Redirect />} />
           <Route path="/normal" element={<Normal />} />
-          <Route path="/rule" element={<Rule />} />
+          <Route path="/rule/:modeNo" element={<Rule />} />
           <Route path="/album" element={<Album />} />
           <Route path="/result" element={<Result />} />
         </Routes>

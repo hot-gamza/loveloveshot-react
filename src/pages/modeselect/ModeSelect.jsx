@@ -13,16 +13,18 @@ const ModeSelect = () => {
         <TabBar className="tab-bar-instance" />
         <div className="botton-text">
           <p className="p">
-            *업로드한 사진은, 이미지 생성 후&nbsp;서버에서 즉시 삭제됩니다.
+            * 업로드한 사진은, 이미지 생성 후&nbsp;서버에서 즉시 삭제됩니다.
           </p>
         </div>
         <div className="premium-button">
           <div className="overlap">
-            <div className="choose-button">
-              <div className="div-wrapper">
-                <div className="text-wrapper-4">선택하기</div>
+            <Link to="/rule/2">
+              <div className="choose-button">
+                <div className="div-wrapper">
+                  <div className="text-wrapper-4">선택하기</div>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="text">
               <div className="text-wrapper-5">컨셉별 커플 이미지 10장</div>
               <div className="text-wrapper-6">나만의 사진첩 제공</div>
@@ -66,7 +68,7 @@ const ModeSelect = () => {
         <div className="standard-button">
           <div className="overlap-3">
             <div className="choose-button-2">
-              <Link to="/standard">
+              <Link to="/rule/1">
                 <div className="overlap-group-3">
                   <div className="text-wrapper-10">선택하기</div>
                 </div>

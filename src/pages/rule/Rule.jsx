@@ -1,9 +1,11 @@
 import React from "react";
 import "./rule.css";
+import { Link, useParams } from "react-router-dom";
 import { Button } from "../../component/button/Button";
 import { TabBar } from "../../component/tapbar/TabBar";
 
 const Rule = () => {
+  const { modeNo } = useParams();
   return (
     <div className="rule-index">
       <div className="div">
@@ -120,11 +122,23 @@ const Rule = () => {
             />
           </div>
         </div>
-        <Button
-          className="div-wrapper"
-          divClassName="text-wrapper-8"
-          text="이미지 등록하기"
-        />
+        {modeNo == 1 ? (
+          <Link to="/standard">
+            <Button
+              className="div-wrapper"
+              divClassName="text-wrapper-8"
+              text="이미지 등록하기"
+            />
+          </Link>
+        ) : (
+          <Link to="/premium">
+            <Button
+              className="div-wrapper"
+              divClassName="text-wrapper-8"
+              text="이미지 등록하기"
+            />
+          </Link>
+        )}
       </div>
     </div>
   );
