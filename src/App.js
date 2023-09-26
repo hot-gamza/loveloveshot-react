@@ -28,7 +28,7 @@ function App() {
           <Route path="/normal" element={<Normal />} />
           <Route path="/rule" element={<Rule />} />
           <Route path="/album" element={<Album />} />
-          <Route path="/result" element={<Result />} />
+          <Route path="/result/:taskId" element={<Result />} />
         </Routes>
       </BrowserRouter>
     </>

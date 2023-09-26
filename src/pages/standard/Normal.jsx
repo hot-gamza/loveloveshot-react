@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
-import "../assets/pages/normalImage.css";
+// import "../assets/pages/normalImage.css";
 
 const Normal = () => {
   const [disabled, setDisabled] = useState(false);
@@ -10,7 +10,7 @@ const Normal = () => {
   const [count, setCount] = useState(0);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
-  const springURL = "http://192.168.0.159:8080/api/v1/uploadStandardImage";
+  const springURL = "http://192.168.0.50:8080/api/v1/uploadStandardImage";
   let waitingNumber = 0;
 
   useEffect(() => {

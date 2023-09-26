@@ -8,18 +8,20 @@
 
 .album-index .div {
   background-color: #ffffff;
-  height: 652px;
+  height: 100%;
   position: relative;
   width: 400px;
+  margin-bottom: 200px;
 }
 
 .album-index .tab-bar {
   background-color: #ffffff;
   box-shadow: 10px 10px 20px #00000033;
   height: 70px;
-  left: 0;
-  position: absolute;
-  top: 582px;
+  left: 50%; /* 가운데로 이동하기 위해 left를 50%로 설정 */
+  position: fixed;
+  transform: translateX(-50%); /* left 50%를 기준으로 가로 방향으로 -50% 이동하여 가운데로 정렬 */
+  bottom: 0; /* 밑에 고정*/
   width: 400px;
 }
 
@@ -152,16 +154,17 @@
   line-height: normal;
   position: absolute;
   top: 33px;
-  width: 182px;
+  width: 300px;
 }
 
 .album-index .overlap {
   border-radius: 8px;
   height: 240px;
   left: 80px;
-  position: absolute;
+  position: relative;
   top: 118px;
   width: 240px;
+  margin-bottom: 20px;
 }
 
 .album-index .element {
@@ -176,7 +179,7 @@
 }
 
 .album-index .overlap-2 {
-  background-color: #ac59ff;
+  
   border-radius: 8px;
   height: 240px;
   position: relative;

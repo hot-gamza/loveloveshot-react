@@ -8,16 +8,17 @@
 
 .result-index .div {
   background-color: #ffffff;
-  height: 867px;
+  height: 100vh;
   position: relative;
   width: 400px;
+  margin-bottom: 100px;
 }
 
 .result-index .overlap {
   height: 312px;
   left: 0;
-  position: absolute;
-  top: 555px;
+  position: relative;
+  top: 55px;
   width: 400px;
 }
 
@@ -34,9 +35,10 @@
   background-color: #ffffff;
   box-shadow: 10px 10px 20px #00000033;
   height: 70px;
-  left: 0;
-  position: absolute;
-  top: 242px;
+  left: 50%; /* 가운데로 이동하기 위해 left를 50%로 설정 */
+  position: fixed;
+  transform: translateX(-50%); /* left 50%를 기준으로 가로 방향으로 -50% 이동하여 가운데로 정렬 */
+  bottom: 0; /* 밑에 고정*/
   width: 400px;
 }
 

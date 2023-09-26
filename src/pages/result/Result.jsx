@@ -1,18 +1,43 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import "./result.css";
 import { TabBar } from "../../component/tapbar/TabBar";
+import { useParams } from 'react-router-dom';
 
 const Result = () => {
+  const { taskId } = useParams();
+  const baseUrl = "http://localhost:8080";
+
+  const [selectedTaskId, setSelectedTaskId] = useState("");
+  const [images, setImages] = useState([]);
+
+  useEffect (()=> {
+  axios.get(`${baseUrl}/api/v1/images?taskId=${taskId}`)
+  .then((response) => {
+    console.log(response.data.data);
+    setImages(response.data.data);
+    setSelectedTaskId(taskId);
+    // console.log(`${images[0].imagePath}${images[0].imageName}`)
+  })
+  .catch((error) => {
+    console.error('Error fetching images:', error);
+  });
+}, [taskId]);
+
   return (
     <div className="result-index">
+     
       <div className="div">
-        <div className="overlap">
+      
+      {images.map((image) => (
+        <div className="overlap" key={image.imageName}>
           <img
             className="kakaotalk-photo"
-            alt="Kakaotalk photo"
-            src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651030e59efc059aed0ee99d/img/kakaotalk-photo-2023-09-23-23-03-46-002-1@2x.png"
+            alt={image.imageName}
+            src={`${baseUrl}${image.imagePath}`}
           />
-          <TabBar />
+          
+          
           {/* <div className="tab-bar">
             <div className="group">
               <div className="text-wrapper">사진첩</div>
@@ -40,16 +65,19 @@ const Result = () => {
             </div>
           </div> */}
         </div>
+        ))}
         <div className="group-3">
-          <div className="text-wrapper-3">커플 모음집 v.1</div>
+          <div className="text-wrapper-3">{taskId}</div>
           <div className="text-wrapper-4">전체 저장</div>
         </div>
-        <img
+        {/* <img
           className="kakaotalk-photo-2"
           alt="Kakaotalk photo"
           src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651030e59efc059aed0ee99d/img/kakaotalk-photo-2023-09-23-23-03-45-001-1@2x.png"
-        />
+        /> */}
         <div className="forward" />
+        
+        <TabBar />
       </div>
     </div>
   );

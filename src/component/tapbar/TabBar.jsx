@@ -7,6 +7,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 export const TabBar = ({ className }) => {
   return (
     <div className={`tab-bar ${className}`}>
+      <Link to="/album">
       <div className="group">
         <div className="text-wrapper">사진첩</div>
         <img
@@ -15,6 +16,7 @@ export const TabBar = ({ className }) => {
           src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/vector.svg"
         />
       </div>
+      </Link>
 
       <div className="button">
         <div className="overlap-group-wrapper">
