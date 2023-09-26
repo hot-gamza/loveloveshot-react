@@ -139,14 +139,14 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
-  left: 112px;
+  left: 60px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 14px;
+  top: 668px;
   white-space: nowrap;
-  width: 56px;
+  width: 280px;
 }
 
 .standard-index .view {
@@ -161,9 +161,9 @@
   background-color: #d9d9d9;
   border-radius: 5px;
   height: 10px;
-  left: 0;
+  left: -15px;
   position: absolute;
-  top: 0;
+  top: -8px;
   width: 10px;
 }
 
@@ -172,11 +172,12 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 8px;
   font-weight: 400;
-  left: 18px;
+  left: 3px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: -10px;
+  width: 100px;
 }
 
 .standard-index .overlap-wrapper {
@@ -313,7 +314,7 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  left: -12px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;

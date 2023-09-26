@@ -49,6 +49,7 @@
 .mainPage-index .button-instance {
   left: 67px !important;
   width: unset !important;
+  cursor: pointer;
 }
 
 .mainPage-index .text-top {
@@ -85,14 +86,41 @@
 }
 
 .mainPage-index .button-1-instance {
+  border-radius: 25px;
   left: 60px !important;
   position: absolute !important;
   top: 571px !important;
 }
 
+.mainPage-index .button-2-instance {
+  border-radius: 25px;
+  left: 60px !important;
+  position: absolute !important;
+  top: 635px !important;
+  background-color: #fee500;
+}
+
+.mainPage-index .button-kakao-login {
+  width: 280px !important;
+  height: 50px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
+  border-radius: 50px;
+  position: absolute !important;
+  object-fit: contain;
+  cursor: pointer;
+}
+
 .mainPage-index .design-component-instance-node {
   left: 95px !important;
   width: unset !important;
+}
+.mainPage-index .kakao-logout {
+  left: 84px !important;
+  /* margin-left: 100px; */
+  width: unset !important;
+  color: #252b48 !important;
 }
 
 .mainPage-index .view {

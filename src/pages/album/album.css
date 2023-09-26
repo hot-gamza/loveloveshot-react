@@ -147,12 +147,12 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  left: -12px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 33px;
-  width: 182px;
+  width: 210px;
 }
 
 .album-index .overlap {
@@ -215,7 +215,7 @@
   font-family: "Lora", Helvetica;
   font-size: 12px;
   font-weight: 500;
-  left: 40px;
+  left: 37px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -298,16 +298,16 @@
   font-family: "Lora", Helvetica;
   font-size: 8px;
   font-weight: 600;
-  left: 28px;
+  left: 24px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 7px;
+  top: 5px;
 }
 
 .album-index .padlock {
   height: 15px;
-  left: 10px;
+  left: 6px;
   position: absolute;
   top: 4px;
   width: 15px;
