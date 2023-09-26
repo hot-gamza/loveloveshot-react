@@ -3,6 +3,7 @@ import "./modeSelect.css";
 import { Link } from "react-router-dom";
 import { Logo } from "../../component/logo/Logo";
 import { TabBar } from "../../component/tapbar/TabBar";
+import { Forward } from "../../component/forward/Forward";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCrown } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,6 +11,7 @@ const ModeSelect = () => {
   return (
     <div className="modeSelect-index">
       <div className="div-2">
+        <Forward />
         <TabBar className="tab-bar-instance" />
         <div className="botton-text">
           <p className="p">
