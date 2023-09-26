@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./premium.css";
 import { TabBar } from "../../component/tapbar/TabBar";
+import Terms from "../../component/terms/Terms";
+import { Forward } from "../../component/forward/Forward";
 import axios from "axios";
 
 const Premium = () => {
@@ -9,6 +11,8 @@ const Premium = () => {
   const [femaleImage, setFemaleImage] = useState(null);
   const [waitingCount, setWaitingCount] = useState(0);
   const [count, setCount] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [agreement, setAgreement] = useState(false);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
   const springURL = "http://192.168.0.159:8080/api/v1/uploadStandardImage";
@@ -93,9 +97,23 @@ const Premium = () => {
     sessionStorage.clear(sessionStorage);
   }
 
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  // const handleAgreementChange = (event) => {
+  //   const { checked } = event.target;
+  //   setAgreement(checked);
+  // };
+
   return (
     <div className="index">
       <div className="div">
+        <Forward />
         <TabBar className="tab-bar" />
         <form
           name="singleImageForm"
@@ -137,8 +155,20 @@ const Premium = () => {
               />
             )}
             <div className="view">
-              <div className="ellipse" />
-              <div className="text-wrapper-4">사진 업로드 약관 동의</div>
+              <input
+                type="checkbox"
+                id="agree_terms"
+                className="ellipse"
+                // checked={agreement}
+                // onChange={handleAgreementChange}
+              />
+              <label
+                htmlFor="agree_terms"
+                className="text-wrapper-4"
+                onClick={openModal}
+              >
+                사진 업로드 약관 동의
+              </label>
             </div>
           </div>
           {/* <div className="overlap-wrapper"> */}
@@ -206,6 +236,7 @@ const Premium = () => {
             커플 2명의 사진을 1장 등록해주세요.
           </div>
         </div>
+        {isModalOpen && <Terms closeModal={closeModal} />}
       </div>
     </div>
   );
