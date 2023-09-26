@@ -6,13 +6,17 @@ import { Link } from "react-router-dom";
 
 const MainPage = () => {
   const [isLogined, setIsLogined] = useState(false);
-
+  const springURL = process.env.REACT_APP_SPRING_SERVER;
   useEffect(() => {
     const jwt = localStorage.getItem("jwt");
     if (jwt) {
       setIsLogined(true);
     }
   }, []);
+
+  const handleLogOut = () => {
+    localStorage.removeItem("jwt");
+  };
 
   return (
     <>
@@ -134,7 +138,7 @@ const MainPage = () => {
                     text="내 사진첩 보기"
                   />
                 </Link>
-                <Link to="/">
+                <Link to="https://kauth.kakao.com/oauth/logout?client_id=8b4b612558dd6e8b0fb4e34aef5d4bf6&logout_redirect_uri=http://192.168.0.25:3000/oauth2/redirect">
                   <Button
                     className="button-2-instance"
                     divClassName="kakao-logout"

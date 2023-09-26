@@ -7,6 +7,7 @@ import Premium from "./pages/premium/Premium";
 import NotFound from "./pages/NotFound";
 import Layout from "./layouts/Layouts";
 import OAuth2Redirect from "./oauth2/OAuth2Redirect";
+import OAuth2LogOutRedirect from "./oauth2/OAuth2LogOutRedirect";
 import Normal from "./pages/standard/Normal";
 import Rule from "./pages/rule/Rule";
 import Album from "./pages/album/Album";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/normalResult" element={<NormalImageResult />} />
           <Route path="/premium" element={<Premium />} />
           <Route path="/oauth2/redirect" element={<OAuth2Redirect />} />
+          <Route path="/oauth2/logout" element={<OAuth2LogOutRedirect />} />
           <Route path="/normal" element={<Normal />} />
           <Route path="/rule/:modeNo" element={<Rule />} />
           <Route path="/album" element={<Album />} />
