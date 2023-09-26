@@ -1,11 +1,13 @@
 import React from "react";
 import "./album.css";
 import { TabBar } from "../../component/tapbar/TabBar";
+import { Forward } from "../../component/forward/Forward";
 
 const Album = () => {
   return (
     <div className="album-index">
       <div className="div">
+        <Forward />
         <TabBar />
         <div className="option-text">
           <div className="text-wrapper-3">내 사진첩</div>
