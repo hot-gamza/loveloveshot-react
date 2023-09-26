@@ -20,13 +20,27 @@ const ModeSelect = () => {
         </div>
         <div className="premium-button">
           <div className="overlap">
-            <Link to="/rule/2">
-              <div className="choose-button">
-                <div className="div-wrapper">
-                  <div className="text-wrapper-4">선택하기</div>
+            {localStorage.getItem("jwt") === null ? (
+              <Link
+                onClick={() => {
+                  alert("로그인 후 이용 가능합니다.");
+                }}
+              >
+                <div className="choose-button">
+                  <div className="div-wrapper">
+                    <div className="text-wrapper-4">선택하기</div>
+                  </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            ) : (
+              <Link to="/rule/2">
+                <div className="choose-button">
+                  <div className="div-wrapper">
+                    <div className="text-wrapper-4">선택하기</div>
+                  </div>
+                </div>
+              </Link>
+            )}
             <div className="text">
               <div className="text-wrapper-5">컨셉별 커플 이미지 10장</div>
               <div className="text-wrapper-6">나만의 사진첩 제공</div>

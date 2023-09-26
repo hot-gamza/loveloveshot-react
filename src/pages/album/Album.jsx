@@ -1,42 +1,43 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
+import axios from "axios";
 import "./album.css";
 import { TabBar } from "../../component/tapbar/TabBar";
 import { Link } from "react-router-dom";
 
-const Album = ({userNo}) => {
+const Album = ({ userNo }) => {
   const [taskIds, setTaskIds] = useState([]);
   const [imagePaths, setImagePaths] = useState([]);
   // const inCompleteTaskId = sessionStorage.getTaskId;
 
-  const baseUrl = "http://localhost:8080"
+  const baseUrl = "http://192.168.0.159:8080";
 
   useEffect(() => {
     // userNo로부터 taskIds 목록 가져오기
-    axios.get(`${baseUrl}/api/v1/taskIds?userNo=${userNo}`)
+    axios
+      .get(`${baseUrl}/api/v1/taskIds?userNo=${userNo}`)
       .then((response) => {
         console.log(response.data.data);
         setTaskIds(response.data.data);
       })
       .catch((error) => {
-        console.error('Error fetching taskIds:', error);
+        console.error("Error fetching taskIds:", error);
       });
   }, [userNo]);
 
-  useEffect (()=> {
+  useEffect(() => {
     taskIds.map((taskId) => {
-      axios.get(`${baseUrl}/api/v1/images?taskId=${taskId}`)
-      .then((response) => {
-        console.log(response.data.data[0].imagePath);
-        setImagePaths(response.data.data[0].imagePath);
-        // console.log('taskIds',taskId)
-        
-    })
-    .catch((error) => {
-      console.error('Error fetching images:', error);
+      axios
+        .get(`${baseUrl}/api/v1/images?taskId=${taskId}`)
+        .then((response) => {
+          console.log(response.data.data[0].imagePath);
+          setImagePaths(response.data.data[0].imagePath);
+          // console.log('taskIds',taskId)
+        })
+        .catch((error) => {
+          console.error("Error fetching images:", error);
+        });
     });
-  });
-},[taskIds])
+  }, [taskIds]);
 
   return (
     <div className="album-index">
@@ -47,23 +48,27 @@ const Album = ({userNo}) => {
         </div>
 
         {taskIds.map((taskId) => (
-        <div className='overlap' key={taskId}>
-          <Link to={`/Result/${taskId}`}>
-          <div className="element">
-            <div className="overlap-2">
-            <img src={`${baseUrl}${imagePaths}`} alt="image" height="240" width="240"/>
-              <div className="image">Task ID: {taskId}</div>
-              <div className="div-wrapper">
-                <div className="overlap-group-2">
-                  <div className="text-wrapper-4">이미지 확인하기</div>
+          <div className="overlap" key={taskId}>
+            <Link to={`/Result/${taskId}`}>
+              <div className="element">
+                <div className="overlap-2">
+                  <img
+                    src={`${baseUrl}${imagePaths}`}
+                    alt="image"
+                    height="240"
+                    width="240"
+                  />
+                  <div className="image">Task ID: {taskId}</div>
+                  <div className="div-wrapper">
+                    <div className="overlap-group-2">
+                      <div className="text-wrapper-4">이미지 확인하기</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
 
-
-          {/* <div className="text-wrapper-5">2023.09.22에 완료 예정</div> */}
-          {/* <div className="loading">
+              {/* <div className="text-wrapper-5">2023.09.22에 완료 예정</div> */}
+              {/* <div className="loading">
             <div className="overlap-3">
               <img
                 className="ellipse"
@@ -74,8 +79,8 @@ const Album = ({userNo}) => {
               <div className="rectangle-4" />
             </div>
           </div> */}
-          </Link>   
-        </div>
+            </Link>
+          </div>
         ))}
 
         <div className="logout">

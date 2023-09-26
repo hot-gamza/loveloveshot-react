@@ -80,7 +80,7 @@ const Premium = () => {
               "대기열: " +
                 waitingNumber +
                 "\n예상 대기 시간: " +
-                waitingNumber * 12 +
+                waitingNumber * 10 +
                 "초"
             );
           }
@@ -93,7 +93,7 @@ const Premium = () => {
     }
   };
 
-  if (waitingNumber * 12 - count === 0) {
+  if (waitingNumber * 10 - count === 0) {
     sessionStorage.clear(sessionStorage);
   }
 
@@ -134,7 +134,7 @@ const Premium = () => {
                 className="div-wrapper"
                 value="결과 보기"
                 onClick={(event) => {
-                  let waitingTime = waitingCount * 12 - count;
+                  let waitingTime = waitingCount * 10 - count;
                   event.preventDefault();
                   if (waitingCount > 0 && waitingTime > 0) {
                     alert(
