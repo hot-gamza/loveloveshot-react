@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import "./standard.css";
 import { TabBar } from "../../component/tapbar/TabBar";
 import axios from "axios";
+import { Forward } from "../../component/forward/Forward";
 
 const Standard = () => {
   const [disabled, setDisabled] = useState(false);
@@ -66,6 +67,7 @@ const Standard = () => {
   return (
     <div className="standard-index">
       <div className="div">
+        <Forward />
         <TabBar className="tab-bar-instance" />
         <input type="submit" className="div-wrapper" />
         <div className="text-wrapper-3">생성하기</div>
