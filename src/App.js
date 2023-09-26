@@ -5,18 +5,20 @@ import Standard from "./pages/standard/Standard";
 import NormalImageResult from "./pages/normalimageresult/NormalImageResult";
 import Premium from "./pages/premium/Premium";
 import NotFound from "./pages/NotFound";
-import Layout from "./layouts/Layouts";
+// import Layout from "./layouts/Layouts";
 import OAuth2Redirect from "./oauth2/OAuth2Redirect";
+import OAuth2LogOutRedirect from "./oauth2/OAuth2LogOutRedirect";
 import Normal from "./pages/standard/Normal";
 import Rule from "./pages/rule/Rule";
 import Album from "./pages/album/Album";
 import Result from "./pages/result/Result";
+import Terms from "./component/terms/Terms";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Layout />
+        {/* <Layout /> */}
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<MainPage />} />
@@ -25,10 +27,12 @@ function App() {
           <Route path="/normalResult" element={<NormalImageResult />} />
           <Route path="/premium" element={<Premium />} />
           <Route path="/oauth2/redirect" element={<OAuth2Redirect />} />
+          <Route path="/oauth2/logout" element={<OAuth2LogOutRedirect />} />
           <Route path="/normal" element={<Normal />} />
-          <Route path="/rule" element={<Rule />} />
+          <Route path="/rule/:modeNo" element={<Rule />} />
           <Route path="/album" element={<Album />} />
           <Route path="/result/:taskId" element={<Result />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </BrowserRouter>
     </>

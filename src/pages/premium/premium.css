@@ -18,9 +18,10 @@
   box-shadow: 10px 10px 20px #00000033;
   height: 70px;
   left: 0;
-  position: absolute;
+  position: relative;
   top: 730px;
   width: 400px;
+  margin-top: 10px;
 }
 
 .index .group {
@@ -130,8 +131,9 @@
   height: 47px;
   left: 60px;
   position: absolute;
-  top: 670px;
+  top: 668px;
   width: 280px;
+  cursor: pointer;
 }
 
 .index .text-wrapper-3 {
@@ -139,7 +141,6 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
-  left: 112px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -161,22 +162,24 @@
   background-color: #d9d9d9;
   border-radius: 5px;
   height: 10px;
-  left: 0;
+  left: -30%;
   position: absolute;
-  top: 0;
+  top: -160%;
   width: 10px;
+  cursor: pointer;
 }
 
 .index .text-wrapper-4 {
   color: #000000;
   font-family: "Pretendard-Regular", Helvetica;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 400;
-  left: 18px;
+  left: -10%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: -190%;
+  cursor: pointer;
 }
 
 .index .overlap-wrapper {
@@ -188,6 +191,7 @@
   position: absolute;
   top: 382px;
   width: 240px;
+  cursor: pointer;
 }
 
 .index .overlap {
@@ -206,11 +210,11 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 12px;
   font-weight: 600;
-  left: 20px;
+  left: 22%;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 12px;
+  position: relative;
+  top: 293px;
   white-space: nowrap;
 }
 
@@ -263,6 +267,19 @@
   width: 248px;
 }
 
+.index .image-2 {
+  color: #ffffff;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  left: 22%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  top: -5px;
+  white-space: nowrap;
+}
+
 .index .premium-text {
   height: 56px;
   left: 97px;
@@ -288,10 +305,25 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  left: -14%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 37px;
   white-space: nowrap;
+}
+
+form input::file-selector-button {
+  display: none;
+}
+
+.uploadImage {
+  display: flex;
+  border-style: none;
+  border: 0 solid black;
+  margin: 0;
+  opacity: 0;
+  top: -100%;
+  overflow: hidden;
+  cursor: pointer;
 }

@@ -72,7 +72,7 @@ const Result = () => {
         </div>
         {/* <img
           className="kakaotalk-photo-2"
-          alt="Kakaotalk photo"
+          alt="Kakaotalk"
           src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651030e59efc059aed0ee99d/img/kakaotalk-photo-2023-09-23-23-03-45-001-1@2x.png"
         /> */}
         <div className="forward" />

@@ -1,7 +1,7 @@
 import React from "react";
 import "./tab-bar.css";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 export const TabBar = ({ className }) => {
@@ -18,13 +18,15 @@ export const TabBar = ({ className }) => {
       </div>
       </Link>
 
-      <div className="button">
-        <div className="overlap-group-wrapper">
-          <div className="overlap-group">
-            <FontAwesomeIcon icon={faPlus} style={{color: "#5d00ba",}} />
+      <Link to="/modeSelect">
+        <div className="button">
+          <div className="overlap-group-wrapper">
+            <div className="overlap-group">
+              <FontAwesomeIcon icon={faPlus} style={{ color: "#5d00ba" }} />
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
 
       <Link to="/">
         <div className="group-2">

@@ -1,15 +1,18 @@
 import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 
 const OAuth2Redirect = () => {
-  const params = useParams();
-
+  const [searchParams] = useSearchParams();
+  const token = searchParams.get("token");
   useEffect(() => {
-    localStorage.clear();
-    localStorage.setItem("jwt", params);
+    if (token) {
+      localStorage.setItem("jwt", token);
+    }
+
     window.location.replace("/");
-  }, []);
+  }, [token]);
 
   return <></>;
 };
+
 export default OAuth2Redirect;
