@@ -18,9 +18,10 @@
   box-shadow: 10px 10px 20px #00000033;
   height: 70px;
   left: 0;
-  position: absolute;
+  position: relative;
   top: 730px;
   width: 400px;
+  margin-top: 10px;
 }
 
 .standard-index .group {
@@ -60,6 +61,7 @@
   position: absolute;
   top: 4px;
   width: 59px;
+  cursor: pointer;
 }
 
 .standard-index .overlap-group-wrapper {
@@ -132,6 +134,7 @@
   position: absolute;
   top: 668px;
   width: 280px;
+  cursor: pointer;
 }
 
 .standard-index .text-wrapper-3 {
@@ -139,7 +142,6 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 16px;
   font-weight: 600;
-  left: 112px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -161,22 +163,24 @@
   background-color: #d9d9d9;
   border-radius: 5px;
   height: 10px;
-  left: 0;
+  left: -30%;
   position: absolute;
-  top: 0;
+  top: -160%;
   width: 10px;
+  cursor: pointer;
 }
 
 .standard-index .text-wrapper-4 {
   color: #000000;
   font-family: "Pretendard-Regular", Helvetica;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 400;
-  left: 18px;
+  left: -10%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 0;
+  top: -190%;
+  cursor: pointer;
 }
 
 .standard-index .overlap-wrapper {
@@ -188,17 +192,20 @@
   position: absolute;
   top: 382px;
   width: 240px;
+  cursor: pointer;
 }
 
 .standard-index .overlap {
   background-image: url(https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fc9a530f1426ce53ba43c/img/rectangle-48@2x.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 248px;
+  border-radius: 8px;
+  height: 240px;
   left: -4px;
   position: relative;
-  top: -4px;
+  top: 0%;
   width: 248px;
+  cursor: pointer;
 }
 
 .standard-index .image {
@@ -206,11 +213,11 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 12px;
   font-weight: 600;
-  left: 20px;
+  left: 22%;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 12px;
+  position: relative;
+  top: 293px;
   white-space: nowrap;
 }
 
@@ -224,6 +231,7 @@
   position: absolute;
   top: 196px;
   width: 160px;
+  cursor: pointer;
 }
 
 .standard-index .element {
@@ -231,14 +239,16 @@
   font-family: "Pretendard-Medium", Helvetica;
   font-size: 12px;
   font-weight: 500;
-  left: 24px;
+  left: 15%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 9px;
+  top: 25%;
   white-space: nowrap;
   width: 113px;
+  /* z-index: -1; */
+  cursor: pointer;
 }
 
 .standard-index .view-2 {
@@ -250,17 +260,19 @@
   position: absolute;
   top: 118px;
   width: 240px;
+  cursor: pointer;
 }
 
 .standard-index .overlap-2 {
   background-image: url(https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fc9a530f1426ce53ba43c/img/rectangle-48-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 246px;
+  height: 90%;
   left: -3px;
   position: relative;
-  top: -3px;
+  top: 0%;
   width: 246px;
+  cursor: pointer;
 }
 
 .standard-index .image-2 {
@@ -268,11 +280,11 @@
   font-family: "Pretendard-SemiBold", Helvetica;
   font-size: 12px;
   font-weight: 600;
-  left: 19px;
+  left: 22%;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
-  top: 11px;
+  position: relative;
+  top: -5px;
   white-space: nowrap;
 }
 
@@ -286,6 +298,7 @@
   position: absolute;
   top: 195px;
   width: 160px;
+  cursor: pointer;
 }
 
 .standard-index .standard-text {
@@ -313,7 +326,7 @@
   font-family: "Pretendard-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  left: 0;
+  left: -14%;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -321,9 +334,21 @@
   white-space: nowrap;
 }
 
-/* form input::file-selector-button {
+form input::file-selector-button {
   display: none;
-} */
+}
+
+.uploadImage {
+  display: flex;
+  border-style: none;
+  border: 0 solid black;
+  margin: 0;
+  opacity: 0;
+  top: -100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 /* 
 @media screen and (min-width: 768px) {
   input:focus {
