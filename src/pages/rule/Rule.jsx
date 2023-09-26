@@ -147,7 +147,7 @@ const Rule = () => {
           />
           <Forward />
 
-          {modeNo === 1 ? (
+          {modeNo == 1 ? (
             <Link to="/standard">
               <Button
                 className="button-2"

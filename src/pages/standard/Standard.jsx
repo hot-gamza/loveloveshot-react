@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./standard.css";
 import { TabBar } from "../../component/tapbar/TabBar";
-import axios from "axios";
+import Terms from "../../component/terms/Terms";
 import { Forward } from "../../component/forward/Forward";
+import axios from "axios";
 
 const Standard = () => {
   const [disabled, setDisabled] = useState(false);
@@ -10,6 +11,8 @@ const Standard = () => {
   const [femaleImage, setFemaleImage] = useState(null);
   const [waitingCount, setWaitingCount] = useState(0);
   const [count, setCount] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [agreement, setAgreement] = useState(false);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
   const springURL = "http://192.168.0.159:8080/api/v1/uploadStandardImage";
@@ -94,6 +97,19 @@ const Standard = () => {
     sessionStorage.clear(sessionStorage);
   }
 
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  // const handleAgreementChange = (event) => {
+  //   const { checked } = event.target;
+  //   setAgreement(checked);
+  // };
+
   return (
     <div className="standard-index">
       <div className="div">
@@ -139,8 +155,20 @@ const Standard = () => {
               />
             )}
             <div className="view">
-              <div className="ellipse" />
-              <div className="text-wrapper-4">사진 업로드 약관 동의</div>
+              <input
+                type="checkbox"
+                id="agree_terms"
+                className="ellipse"
+                // checked={agreement}
+                // onChange={handleAgreementChange}
+              />
+              <label
+                htmlFor="agree_terms"
+                className="text-wrapper-4"
+                onClick={openModal}
+              >
+                사진 업로드 약관 동의
+              </label>
             </div>
           </div>
           {/* <div className="overlap-wrapper"> */}
@@ -203,6 +231,7 @@ const Standard = () => {
             커플 2명의 사진을 1장 등록해주세요.
           </div>
         </div>
+        {isModalOpen && <Terms closeModal={closeModal} />}
       </div>
     </div>
   );

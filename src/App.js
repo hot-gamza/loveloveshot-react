@@ -5,7 +5,7 @@ import Standard from "./pages/standard/Standard";
 import NormalImageResult from "./pages/normalimageresult/NormalImageResult";
 import Premium from "./pages/premium/Premium";
 import NotFound from "./pages/NotFound";
-import Layout from "./layouts/Layouts";
+// import Layout from "./layouts/Layouts";
 import OAuth2Redirect from "./oauth2/OAuth2Redirect";
 import OAuth2LogOutRedirect from "./oauth2/OAuth2LogOutRedirect";
 import Normal from "./pages/standard/Normal";
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Layout />
+        {/* <Layout /> */}
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<MainPage />} />
