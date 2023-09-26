@@ -15,7 +15,7 @@ const Premium = () => {
   // const [agreement, setAgreement] = useState(false);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
-  const springURL = "http://192.168.0.159:8080/api/v1/uploadStandardImage";
+  const springURL = "http://192.168.0.159:8080/api/v1/uploadPremiumImage";
   let waitingNumber = 0;
 
   useEffect(() => {
@@ -64,11 +64,13 @@ const Premium = () => {
       return;
     } else {
       let formdata = new FormData();
-      formdata.append("maleImage", maleFile);
-      formdata.append("femaleImage", femaleFile);
+      formdata.append("maleImages", maleFile);
+      formdata.append("femaleImages", femaleFile);
 
       axios
-        .post(springURL, formdata)
+        .post(springURL, formdata, {
+          headers: { Authorization: "Bearer " + localStorage.getItem("jwt") },
+        })
         .then(function (resp) {
           console.log(resp.data.data.taskId);
           console.log(resp);
