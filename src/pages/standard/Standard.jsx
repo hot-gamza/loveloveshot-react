@@ -69,6 +69,7 @@ const Standard = () => {
       <div className="div">
         <Forward />
         <TabBar className="tab-bar-instance" />
+
         <input type="submit" className="div-wrapper" />
         <div className="text-wrapper-3">생성하기</div>
         <div className="view">
