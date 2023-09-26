@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 const Result = () => {
   const { taskId } = useParams();
-  const baseUrl = "http://192.168.0.159:8080";
+  const baseUrl = "http://localhost:8080";
 
   const [selectedTaskId, setSelectedTaskId] = useState("");
   const [images, setImages] = useState([]);

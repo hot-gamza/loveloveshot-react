@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const MainPage = () => {
   const [isLogined, setIsLogined] = useState(false);
-  // const springURL = process.env.REACT_APP_SPRING_SERVER;
+  const springURL = process.env.REACT_APP_SPRING_SERVER;
   useEffect(() => {
     const jwt = localStorage.getItem("jwt");
     if (jwt) {
@@ -97,8 +97,8 @@ const MainPage = () => {
                     text="새로운 이미지 생성하기"
                   />
                 </Link>
-                <Link to="http://192.168.0.159:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.159:3000/oauth2/redirect">
-                  {/* <button
+                <Link to="http://localhost:8080/oauth2/authorization/kakao?redirect_uri=http://localhost:3000/oauth2/redirect">
+                  <button
                     className="button button-1-instance"
                     style={{
                       backgroundColor: "#fee500",
@@ -107,7 +107,7 @@ const MainPage = () => {
                     <div className="text-wrapper design-component-instance-node">
                       카카오톡 로그인
                     </div>
-                  </button> */}
+                  </button>
                   <div className="button-1-instance">
                     <img
                       className="button-kakao-login"
@@ -115,11 +115,6 @@ const MainPage = () => {
                       alt="카카오톡 로그인"
                     />
                   </div>
-                  {/* <Button
-                    className="button-1-instance"
-                    divClassName="design-component-instance-node"
-                    text="카카오톡 로그인"
-                  /> */}
                 </Link>
               </>
             ) : (
@@ -138,33 +133,17 @@ const MainPage = () => {
                     text="내 사진첩 보기"
                   />
                 </Link>
-                <Link to="https://kauth.kakao.com/oauth/logout?client_id=8b4b612558dd6e8b0fb4e34aef5d4bf6&logout_redirect_uri=http://192.168.0.159:3000/oauth2/logout">
+                <Link to="https://kauth.kakao.com/oauth/logout?client_id=8b4b612558dd6e8b0fb4e34aef5d4bf6&logout_redirect_uri=http://localhost:3000/oauth2/logout">
+                  <img
+                    src="kakao.png"
+                    style={{ zIndex: "99", width: "100px" }}
+                  />
                   <Button
                     className="button-2-instance"
                     divClassName="kakao-logout"
                     text="카카오톡 로그아웃"
                   />
                 </Link>
-                {/* <button
-                  className="button button-1-instance"
-                  style={{
-                    backgroundColor: "#fee500",
-                  }}
-                > 
-                  <div className="text-wrapper design-component-instance-node">
-                    <center>
-                      <pre
-                        style={{
-                          color: "black",
-                          margin: 0,
-                          left: "-20px",
-                        }}
-                      >
-                        카카오톡 로그아웃
-                      </pre>
-                    </center>
-                  </div>
-                </button> */}
               </>
             )}
             <div className="text-top">
