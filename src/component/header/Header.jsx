@@ -170,10 +170,10 @@ const Header = ({ edit, setEdit }) => {
             <button type="button" onClick={() => setEdit(!edit)}>
               Login
             </button>
-            <Link to="http://localhost:8080/oauth2/authorization/naver?redirect_uri=http://localhost:3000/oauth2/redirect">
+            <Link to="http://192.168.0.159:8080/oauth2/authorization/naver?redirect_uri=http://localhost:3000/oauth2/redirect">
               네이버
             </Link>
-            <Link to="http://localhost:8080/oauth2/authorization/kakao?redirect_uri=http://localhost:3000/oauth2/redirect">
+            <Link to="http://192.168.0.159:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.159:3000/oauth2/redirect">
               카카오
             </Link>
           </li>

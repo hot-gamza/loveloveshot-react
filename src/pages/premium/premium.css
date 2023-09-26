@@ -254,6 +254,7 @@
   position: absolute;
   top: 118px;
   width: 240px;
+  cursor: pointer;
 }
 
 .index .overlap-2 {

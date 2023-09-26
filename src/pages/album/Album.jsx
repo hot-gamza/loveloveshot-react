@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
+import axios from "axios";
 import "./album.css";
 import { TabBar } from "../../component/tapbar/TabBar";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ const Album = ({ userNo }) => {
   const [taskIds, setTaskIds] = useState([]);
   const [imagePaths, setImagePaths] = useState([]);
 
-  const baseUrl = "http://localhost:8080"
+  const baseUrl = "http://192.168.0.159:8080";
 
   useEffect(() => {
     const sessionTaskId = sessionStorage.getItem('taskId')

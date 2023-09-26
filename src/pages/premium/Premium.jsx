@@ -15,7 +15,7 @@ const Premium = () => {
   // const [agreement, setAgreement] = useState(false);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
-  const springURL = "http://192.168.0.16:8080/api/v1/uploadStandardImage";
+  const springURL = "http://192.168.0.159:8080/api/v1/uploadPremiumImage";
   let waitingNumber = 0;
 
   useEffect(() => {
@@ -64,11 +64,13 @@ const Premium = () => {
       return;
     } else {
       let formdata = new FormData();
-      formdata.append("maleImage", maleFile);
-      formdata.append("femaleImage", femaleFile);
+      formdata.append("maleImages", maleFile);
+      formdata.append("femaleImages", femaleFile);
 
       axios
-        .post(springURL, formdata)
+        .post(springURL, formdata, {
+          headers: { Authorization: "Bearer " + localStorage.getItem("jwt") },
+        })
         .then(function (resp) {
           console.log(resp.data.data.taskId);
           console.log(resp);
@@ -80,7 +82,7 @@ const Premium = () => {
               "대기열: " +
                 waitingNumber +
                 "\n예상 대기 시간: " +
-                waitingNumber * 12 +
+                waitingNumber * 10 +
                 "초"
             );
           }
@@ -93,7 +95,7 @@ const Premium = () => {
     }
   };
 
-  if (waitingNumber * 12 - count === 0) {
+  if (waitingNumber * 10 - count === 0) {
     sessionStorage.clear(sessionStorage);
   }
 
@@ -134,7 +136,7 @@ const Premium = () => {
                 className="div-wrapper"
                 value="결과 보기"
                 onClick={(event) => {
-                  let waitingTime = waitingCount * 12 - count;
+                  let waitingTime = waitingCount * 10 - count;
                   event.preventDefault();
                   if (waitingCount > 0 && waitingTime > 0) {
                     alert(
