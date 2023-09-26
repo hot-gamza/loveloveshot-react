@@ -26,10 +26,14 @@
 }
 
 .modeSelect-index .tab-bar-instance {
-  left: 0 !important;
-  position: fixed !important;
-  /* top: 582px !important; */
-  top: 90% !important;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #00000033;
+  height: 70px;
+  left: 50%; /* 가운데로 이동하기 위해 left를 50%로 설정 */
+  position: fixed;
+  transform: translateX(-50%); /* left 50%를 기준으로 가로 방향으로 -50% 이동하여 가운데로 정렬 */
+  bottom: 0; /* 밑에 고정*/
+  width: 400px;
 }
 
 .modeSelect-index .botton-text {

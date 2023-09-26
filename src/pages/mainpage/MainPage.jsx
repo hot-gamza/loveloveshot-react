@@ -97,7 +97,7 @@ const MainPage = () => {
                     text="새로운 이미지 생성하기"
                   />
                 </Link>
-                <Link to="http://192.168.0.25:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.25:3000/oauth2/redirect">
+                <Link to="http://192.168.0.16:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.16:3000/oauth2/redirect">
                   {/* <button
                     className="button button-1-instance"
                     style={{
@@ -138,7 +138,7 @@ const MainPage = () => {
                     text="내 사진첩 보기"
                   />
                 </Link>
-                <Link to="https://kauth.kakao.com/oauth/logout?client_id=8b4b612558dd6e8b0fb4e34aef5d4bf6&logout_redirect_uri=http://192.168.0.25:3000/oauth2/redirect">
+                <Link to="https://kauth.kakao.com/oauth/logout?client_id=8b4b612558dd6e8b0fb4e34aef5d4bf6&logout_redirect_uri=http://192.168.0.16:3000/oauth2/redirect">
                   <Button
                     className="button-2-instance"
                     divClassName="kakao-logout"

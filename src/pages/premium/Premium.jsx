@@ -15,7 +15,7 @@ const Premium = () => {
   // const [agreement, setAgreement] = useState(false);
   const maleImgRef = useRef();
   const femaleImgRef = useRef();
-  const springURL = "http://192.168.0.159:8080/api/v1/uploadStandardImage";
+  const springURL = "http://192.168.0.16:8080/api/v1/uploadStandardImage";
   let waitingNumber = 0;
 
   useEffect(() => {

@@ -67,8 +67,8 @@ const Result = () => {
         </div>
         ))}
         <div className="group-3">
-          <div className="text-wrapper-3">{taskId}</div>
-          <div className="text-wrapper-4">전체 저장</div>
+          <div className="text-wrapper-3"></div>
+          <div className="text-wrapper-4"></div>
         </div>
         {/* <img
           className="kakaotalk-photo-2"

@@ -6,7 +6,7 @@ const NormalImageResult = () => {
   const location = useLocation();
   const [resultImage, setResultImage] = useState();
   const navigate = useNavigate();
-  const serverURL = "http://192.168.0.21:8080";
+  const serverURL = "http://192.168.0.16:8080";
 
   useEffect(() => {
     if (!location || !location.state || !location.state.result) {
