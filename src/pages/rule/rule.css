@@ -33,72 +33,34 @@
   width: 258px;
 }
 
-.rule-index .overlap {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/rectangle-54@2x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.rule-index .rectangle {
   height: 123px;
   left: 0;
+  object-fit: cover;
   position: absolute;
   top: 135px;
   width: 123px;
 }
 
-.rule-index .overlap-group-wrapper {
-  height: 39px;
-  left: 84px;
-  position: relative;
-  width: 39px;
-}
-
-.rule-index .overlap-group {
-  height: 39px;
-  position: relative;
-}
-
-.rule-index .ellipse {
-  background-color: #ffffff;
-  border-radius: 15.64px;
-  height: 31px;
-  left: 4px;
-  position: absolute;
-  top: 4px;
-  width: 31px;
-}
-
-.rule-index .cancel {
-  height: 39px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 39px;
-}
-
-.rule-index .group-wrapper {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/rectangle-55@2x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.rule-index .img {
   height: 123px;
   left: 135px;
+  object-fit: cover;
   position: absolute;
   top: 0;
   width: 123px;
 }
 
-.rule-index .div-wrapper {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/rectangle-56@2x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.rule-index .rectangle-2 {
   height: 123px;
   left: 0;
+  object-fit: cover;
   position: absolute;
   top: 0;
   width: 123px;
 }
 
-.rule-index .overlap-2 {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/rectangle-57@2x.png);
-  background-size: 100% 100%;
+.rule-index .rectangle-3 {
   height: 123px;
   left: 135px;
   position: absolute;
@@ -200,51 +162,16 @@
   top: 122px;
 }
 
-.rule-index .overlap-3 {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/ellipse-17@2x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.rule-index .ellipse {
   height: 114px;
   left: 0;
+  object-fit: cover;
   position: absolute;
   top: 0;
   width: 114px;
 }
 
-.rule-index .group-3 {
-  height: 29px;
-  left: 85px;
-  position: relative;
-  top: 85px;
-  width: 29px;
-}
-
-.rule-index .overlap-group-2 {
-  height: 29px;
-  position: relative;
-}
-
 .rule-index .ellipse-2 {
-  background-color: #ffffff;
-  border-radius: 13.05px;
-  height: 26px;
-  left: 1px;
-  position: absolute;
-  top: 1px;
-  width: 26px;
-}
-
-.rule-index .vector {
-  height: 29px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 29px;
-}
-
-.rule-index .overlap-4 {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/ellipse-18@2x.png);
-  background-size: 100% 100%;
   height: 114px;
   left: 122px;
   position: absolute;
@@ -252,9 +179,7 @@
   width: 114px;
 }
 
-.rule-index .overlap-5 {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/ellipse-19@2x.png);
-  background-size: 100% 100%;
+.rule-index .ellipse-3 {
   height: 114px;
   left: 244px;
   position: absolute;
@@ -284,7 +209,7 @@
   width: 56px;
 }
 
-.rule-index .img {
+.rule-index .line-2 {
   height: 1px;
   left: 234px;
   object-fit: cover;
@@ -294,7 +219,7 @@
 }
 
 .rule-index .forward {
-  background-image: url(https://cdn.animaapp.com/projects/650fc8702e4e252d8d5cde56/releases/651014f5b34031947f682c3a/img/forward@2x.png);
+  background-image: url(https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/forward-1@2x.png);
   background-size: 100% 100%;
   height: 33px;
   left: 8px;
@@ -313,7 +238,7 @@
   width: 400px;
 }
 
-.rule-index .group-4 {
+.rule-index .group-3 {
   height: 38px;
   left: 277px;
   position: absolute;
@@ -334,7 +259,7 @@
   width: 30px;
 }
 
-.rule-index .vector-2 {
+.rule-index .vector {
   height: 24px;
   left: 0;
   position: absolute;
@@ -353,7 +278,7 @@
   width: 59px;
 }
 
-.rule-index .overlap-group-wrapper-2 {
+.rule-index .overlap-group-wrapper {
   height: 16px;
   left: 22px;
   position: relative;
@@ -361,12 +286,12 @@
   width: 16px;
 }
 
-.rule-index .overlap-group-3 {
+.rule-index .overlap-group {
   height: 16px;
   position: relative;
 }
 
-.rule-index .rectangle {
+.rule-index .rectangle-4 {
   background-color: #5d00ba;
   height: 2px;
   left: 0;
@@ -375,7 +300,7 @@
   width: 16px;
 }
 
-.rule-index .rectangle-2 {
+.rule-index .rectangle-5 {
   background-color: #5d00ba;
   height: 2px;
   left: 0;
@@ -385,7 +310,7 @@
   width: 16px;
 }
 
-.rule-index .group-5 {
+.rule-index .group-4 {
   height: 38px;
   left: 101px;
   position: absolute;
@@ -405,7 +330,7 @@
   top: 28px;
 }
 
-.rule-index .vector-3 {
+.rule-index .vector-2 {
   height: 26px;
   left: 0;
   position: absolute;
@@ -413,7 +338,7 @@
   width: 23px;
 }
 
-.rule-index .button-2 {
+.rule-index .div-wrapper {
   all: unset;
   background-color: #ac59ff;
   border-radius: 30px;
