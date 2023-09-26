@@ -4,7 +4,6 @@ import { TabBar } from "../../component/tapbar/TabBar";
 import Terms from "../../component/terms/Terms";
 import { Forward } from "../../component/forward/Forward";
 
-
 const Premium = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [agreement, setAgreement] = useState(false);

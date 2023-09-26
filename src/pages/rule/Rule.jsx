@@ -97,6 +97,49 @@ const Rule = () => {
             alt="Line"
             src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/line-27.svg"
           />
+          <div className="forward" />
+
+          {/* <div className="tab-bar">
+          <div className="group-3">
+            <div className="text-wrapper-6">사진첩</div>
+            <img
+              className="smiling-with-closed"
+              alt="Smiling with closed"
+              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/650fb0cb00e335da865f8efc/img/smiling-with-closed-eyes-emoji--free-download-ios-emojis-.png"
+            />
+          </div>
+          <div className="group-2">
+            <div className="text-wrapper-3">
+              얼굴이 명확하게 <br />
+              나온 증명사진
+            </div>
+            <div className="text-wrapper-4">
+              과한 보정이
+              <br />
+              없는 사진
+            </div>
+            <div className="text-wrapper-5">
+              옅은 미소를
+              <br />띈 사진
+            </div>
+            <img
+              className="ellipse"
+              alt="Ellipse"
+              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-17@2x.png"
+            />
+            <img
+              className="ellipse-2"
+              alt="Ellipse"
+              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-18@2x.png"
+            />
+            <img
+              className="ellipse-3"
+              alt="Ellipse"
+              src="https://cdn.animaapp.com/projects/650faedbe49761255f45c2b2/releases/651023c9fabe7d22e721dbf0/img/ellipse-19@2x.png"
+            />
+          </div>
+
+        </div> */}
           {modeNo == 1 ? (
             <Link to="/standard">
               <Button
