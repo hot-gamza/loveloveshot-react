@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const MainPage = () => {
   const [isLogined, setIsLogined] = useState(false);
-  const springURL = process.env.REACT_APP_SPRING_SERVER;
+  // const springURL = process.env.REACT_APP_SPRING_SERVER;
   useEffect(() => {
     const jwt = localStorage.getItem("jwt");
     if (jwt) {
@@ -14,9 +14,9 @@ const MainPage = () => {
     }
   }, []);
 
-  const handleLogOut = () => {
-    localStorage.removeItem("jwt");
-  };
+  // const handleLogOut = () => {
+  //   localStorage.removeItem("jwt");
+  // };
 
   return (
     <>
