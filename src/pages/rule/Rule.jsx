@@ -158,24 +158,6 @@ const Rule = () => {
             </Link>
           )}
         </div>
-          /*
-        {modeNo == 1 ? (
-          <Link to="/standard">
-            <Button
-              className="div-wrapper"
-              divClassName="text-wrapper-8"
-              text="이미지 등록하기"
-            />
-          </Link>
-        ) : (
-          <Link to="/premium">
-            <Button
-              className="div-wrapper"
-              divClassName="text-wrapper-8"
-              text="이미지 등록하기"
-            />
-          </Link>
-        )} */
       </div>
       <TabBar className="tab-bar-instance" />
     </div>
