@@ -97,7 +97,7 @@ const MainPage = () => {
                     text="새로운 이미지 생성하기"
                   />
                 </Link>
-                <Link to="http://192.168.0.159:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.159:3000/oauth2/redirect">
+                <Link to="http://localhost:8080/oauth2/authorization/kakao?redirect_uri=http://192.168.0.159:3000/oauth2/redirect">
                   {/* <button
                     className="button button-1-instance"
                     style={{

@@ -137,7 +137,7 @@ const Header = ({ edit, setEdit }) => {
         {/* Logo */}
         <div className="logo">
           <Link to="/">
-            <img src="loveloveshot_logo.png" id="main_logo" />
+            <img src="loveloveshot_logo.png" alt="" id="main_logo" />
           </Link>
         </div>
 
