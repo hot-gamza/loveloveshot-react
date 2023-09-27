@@ -166,7 +166,9 @@ const Rule = () => {
           )}
         </div>
       </div>
+      <center>
       <TabBar className="tab-bar-instance" />
+      </center>
     </div>
   );
 };
